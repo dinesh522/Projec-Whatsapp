@@ -1,0 +1,104 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+
+header {
+    display:flex;
+    color:white;
+    font-size: 15px;
+    background-color:#1ebea5 ;
+    padding: 0.5%;
+    
+}
+.main-container {
+    /*display:flex;
+    width: 100%;
+    padding: 10px;
+    background-color:black ;*/
+    display:flex;
+    width: 100%;
+    height: 900px;
+    padding: 0px;
+    
+
+    
+}
+.userlist {
+   flex-direction: column;
+   width:30% ;
+   margin: 0;
+   min-height: 1000px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+   
+}
+
+.message {
+  flex: 1;
+  text-align: center;
+}
+
+
+.subsection {
+    display:flex;
+    border:1px solid rgb(161, 160, 160);
+    height: 90px;
+    align-content: center;
+    
+}
+
+.content
+{
+    flex:1;
+}
+.name
+{
+    margin:0px;
+    padding:10px;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.sample
+{
+    margin:0px;
+    padding:10px;
+    text-align:bottom;
+    font-size: 15px;
+}
+
+.time
+{
+    width:40px;
+    text-align:center;
+    margin:0px;
+    padding: 30px;
+}
+
+.userlist::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  
+  .userlist::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  
+  .userlist::-webkit-scrollbar-thumb {
+    background-color:rgb(209, 206, 206);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(221, 220, 220);  /* creates padding around scroll thumb */
+  }
+
+  
+    img {
+        padding: 10px;
+        border-radius: 80%;
+        
+      }
